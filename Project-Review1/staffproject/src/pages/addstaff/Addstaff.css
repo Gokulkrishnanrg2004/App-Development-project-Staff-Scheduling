@@ -1,0 +1,83 @@
+.dashboardbody{
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  background: transparent;
+  margin-top: 2.5%;
+  box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+border-radius: 10px;
+}
+
+.dashboard-section{
+  text-align: center;
+  padding: 0px;
+  background-color: #1f1e1e;
+  margin-bottom: 4%; 
+}
+.edit{
+    margin-left: 2%;
+}
+.dashboardbody h1 {
+    color: black;
+    margin-left: -10%;
+  margin-bottom: 20px;
+}
+
+.dashboardform{
+  margin-bottom: 20px;
+}
+
+.dashboardform input {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dashboardform button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0065d1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #f8f8f8;
+  color: #000000;
+}
+
+table button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+table button:hover {
+  background-color: #c82333;
+  justify-content: space-between;
+}
