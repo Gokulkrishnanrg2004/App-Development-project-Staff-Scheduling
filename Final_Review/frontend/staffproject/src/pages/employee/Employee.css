@@ -1,0 +1,42 @@
+.edit-staff{
+    background-color: green;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 12px;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+}
+.add-staff{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+}
+.delete-staff{
+    background-color: red;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+}
+.save-staff{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.cancel-staff{
+    margin-left: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+}

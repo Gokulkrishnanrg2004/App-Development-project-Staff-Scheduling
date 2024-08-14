@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+/* * {
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden; 
+  margin: 0;
+} */
+
+.container {
+  display: flex;
+  width: 90vw;
+  background: transparent;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+
+/* .panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+  -webkit-transition: all 700ms ease-in;
+} */
+
+.service{
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 13%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 14px 0px rgba(91,91,91,0.75);
+-webkit-box-shadow: 10px 10px 14px 0px rgba(91,91,91,0.75);
+-moz-box-shadow: 10px 10px 14px 0px rgba(91,91,91,0.75);
+}
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+    overflow: hidden; /* To ensure the overlay stays within the rounded borders */
+    box-shadow: 10px 10px 14px 0px rgba(91,91,91,0.75);
+-webkit-box-shadow: 10px 10px 14px 0px rgba(91,91,91,0.75);
+-moz-box-shadow: 10px 10px 14px 0px rgba(91,91,91,0.75);
+border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .panel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1;
+    transition: background-color 0.7s ease-in; /* Smooth transition for overlay */
+  }
+
+.panel h3 {
+  z-index: 100;
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 5;
+  color: #000000;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); */
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 26px;
+  /* box-shadow: 10px 10px 14px 0px rgba(91,91,91,0.75);
+-webkit-box-shadow: 10px 10px 14px 0px rgba(91,91,91,0.75);
+-moz-box-shadow: 10px 10px 14px 0px rgba(91,91,91,0.75); */
+border: 1px solid black;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}

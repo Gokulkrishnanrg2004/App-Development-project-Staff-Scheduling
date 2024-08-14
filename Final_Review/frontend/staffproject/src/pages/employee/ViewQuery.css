@@ -1,0 +1,29 @@
+.view-query {
+    padding: 20px;
+}
+
+.query-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.query-table th, .query-table td {
+    border: 1px solid #979797;
+    padding: 8px;
+    text-align: left;
+}
+
+.query-table th {
+    background-color: #000000;
+    color: white;
+}
+.goto{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+
+}

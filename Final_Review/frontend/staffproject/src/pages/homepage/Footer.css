@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+.home-footer{
+    /* background-image: url('../login/homebg.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(23, 23, 23);
+    margin-top: 40%;
+    height: 98vh;
+    width: 99vw;
+}
+.follow{
+    color: aliceblue;
+    margin-top: 0%;
+}
+.footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-family: 'Poppins';
+    margin-left: 10%;
+}
+.footercontent{
+    color: aliceblue;
+}
+.footpara{
+    width: 60%;
+    margin-left: 10%;
+    font-family: 'Poppins';
+    font-size: 16px;
+    display: flex;
+}
+.address{
+    margin-left: 10%;
+    color: beige;
+    font-family: 'Poppins';
+    font-size: large;
+}
+.links{
+    font-weight: 500;
+    margin-left: 10%;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: space-between;
+}
+.xicon{
+    color: aliceblue;
+    /* margin-left: 2%; */
+}
+.ig{
+    margin-left: 10%;
+}
+.igp{
+    color: aliceblue;
+    /* margin-left: 2.5%; */
+    margin-top: -0.3%;
+    font-family: 'Poppins';
+}
+.igx{
+    color: aliceblue;
+    /* margin-left: 2%; */
+    margin-top: -0.3%;
+    font-family: 'Poppins';
+}
+.facp{
+    color: aliceblue;
+    /* margin-left: 3%; */
+    margin-right: 55%;
+    margin-top: -0.3%;
+    font-family: 'Poppins';
+}
+.fac{
+    margin-left: 10%;
+    margin-top: -1%;
+}
+.copyright{
+    color: antiquewhite;
+    font-family: 'Poppins';
+    margin-left: 10%;
+}

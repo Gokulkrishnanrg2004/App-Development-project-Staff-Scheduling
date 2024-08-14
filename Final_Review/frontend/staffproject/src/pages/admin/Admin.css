@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.admin-dashboard-container {
+  display: flex;
+}
+
+.admin-dashboard-nav {
+  position: relative;
+  top: 5px;
+  margin-left: -4.5%;
+  height: 100vh;
+  background: #000000;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard-logo {
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+
+.admin-dashboard-logo span {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.admin-dashboard-nav-list a {
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+
+.admin-dashboard-nav-list .fas {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.admin-dashboard-nav-item1 {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  top: -120px;
+  margin-left: -140px;
+  color: white;
+}
+
+.admin-dashboard-nav-item {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  top: -50px;
+  margin-left: 35px;
+  color: white;
+}
+
+.admin-dashboard-logout {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Main Section */
+.admin-dashboard-main {
+  margin-top: 5%;
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+
+.admin-dashboard-main-top {
+  display: flex;
+  width: 100%;
+}
+
+.admin-dashboard-main-top i {
+  position: absolute;
+  right: 0;
+  margin: 10px 30px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.admin-dashboard-main-skills {
+  display: flex;
+  margin-top: -75px;
+  margin-left: 50px;
+}
+
+.admin-analysis-heading {
+  color: #000;
+  font-weight: 500;
+  font-size: 1cm;
+  margin-left: 9%;
+}
+
+.admin-chart {
+  margin-left: 3%;
+  margin-top: -2%;
+}
+
+.admin-dashboard-card {
+  width: 25%;
+  margin: 10px;
+  background: #830000;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard-card h3 {
+  margin: 10px;
+  text-transform: capitalize;
+}
+
+.admin-dashboard-card p {
+  font-size: 12px;
+}
+
+.admin-dashboard-card button {
+  background: rgb(0, 0, 0);
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.admin-dashboard-card button:hover {
+  background: rgba(255, 255, 255, 0.856);
+  color: #000;
+  transition-duration: 0.5s;
+}
+
+.admin-dashboard-card i {
+  font-size: 22px;
+  padding: 10px;
+}
+
+.admin-account-icon {
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.admin-current {
+  margin-left: 20%;
+}
+
+.admin-chart-div {
+  margin-left: 2%;
+}
+
+.admin-info {
+  color: white;
+  width: 50%;
+}
+
+.admin-details {
+  background-color: #000525;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+}
+
+/* Analysis Section */
+.admin-dashboard-main-analysis {
+  margin-top: 20px;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.admin-dashboard-main-analysis h1 {
+  color: #000;
+}
