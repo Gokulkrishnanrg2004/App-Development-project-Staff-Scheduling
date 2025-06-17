@@ -1,0 +1,224 @@
+/* Import Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(226, 226, 226);
+}
+
+/* Schedule Table Styles */
+.schedule-container {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px 15px;
+}
+
+.schedule-table th {
+  background-color: #f2f2f2;
+  color: #235fa4;
+}
+
+.schedule-table tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.schedule-table input {
+  width: 100%;
+  border: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.action-buttons {
+  display: flex;
+  align-items: right;
+}
+.download-icon,
+.save-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #007bff;
+}
+.download-icon:hover,
+.save-icon:hover {
+  color: #0056b3;
+}
+
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  background: #235fa4;
+  color: #fff;
+}
+
+.modal-content button:hover {
+  background: #1d4d8a;
+} 
+/* Dashboard.css */
+
+/* Style for the employee card */
+.employee-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.employee-card:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style for the employee image */
+.employee-image {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-right: 16px;
+}
+
+/* Style for the employee details */
+.emp-details {
+  flex-grow: 1;
+}
+
+.emp-details h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.emp-details p {
+  margin: 4px 0 0;
+  color: #666;
+}
+
+/* Style for the edit profile button */
+.employee-card button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.employee-card button:hover {
+  background: #0056b3;
+}
+/* AdminDashboard.css */
+
+/* Add Employee Section Styles */
+.add-employee {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-employee input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.add-employee button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #5088c5;
+  color: #fff;
+}
+
+.add-employee button:hover {
+  background: #0056b3;
+}
+
+/* Delete Button Styles */
+.employee-card .delete-button {
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.employee-card .delete-button:hover {
+  background: #cc0000;
+}
+
+
